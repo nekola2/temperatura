@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperatūra</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+     <div class="container"><!--Galvenais (baltais) konteiners-->
+        <h2>Temperatūras ieraksti</h2>
+        <div class="calculator"><!--Zilais konteiners-->
+            
+            <div class="input-container"><!--Baltais konteiners-->
+                <div class="group">
+                    <label>Datums</label>
+                    <input type="number" id="roomWidth" step="0.01">
+                </div>
+                <div class="group">
+                    <label>Mazāka temperatūra</label>
+                    <input type="number" id="roomLength" step="0.01">
+                </div>
+                <div class="button-group">
+            </div class="row">
+            <label>Lielāka temperatūra</label>
+            <input type="text">
+            <button>Pievienot</button>
+            </div>
+
+            <p>Ievads dienas minimālo un māksimālo temperatūru. (Vēlāk var pieslēgt validāciju/Flask saglabāšanu.)</p>
+
+            <div class="result row">
+                <h2>Temperatūru saraksts</h2>
+                <table>
+                    <tr>
+                        <th>Datums</th>
+                        <th>Mazākā temperatūra</th>
+                        <th>Lielākā temperatūra</th>
+                        <th>Videjājā temperatūra</th>
+                        </tr>
+                        <tr>
+                            <td>1999-12-01</td>
+                            <td>6</td>
+                            <td>15</td>
+                            <td>88</td>
+                        </tr>
+                        </tr>
+                            <td>1999-12-02</td>
+                            <td>3</td>
+                            <td>52</td>
+                            <td>73</td>
+                        </tr>
+                        <tr>
+                            <td>1999-12-03</td>
+                            <td>4</td>
+                            <td>38</td>
+                            <td>34</td>
+                        </tr>
+                        <tr>
+                            <td>1999-12-04</td>
+                            <td>8</td>
+                            <td>0</td>
+                            <td>17</td>
+                        </tr>
+
+                </table>
+            </div>
+
+            <p>Vidējā temperatūra visām dienām: 0.00</p>
+
+            </div><!--Aizver baltais konteiners-->
+</body>
+</html>
