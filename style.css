@@ -1,0 +1,29 @@
+.title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 22px;
+}
+
+.right-box {
+    width: 800px;
+    padding: 150px;
+    background-color: aqua;
+    border: 1px solid black;
+
+    position: absolute;
+    top: 20%;
+    right: 100px;
+}
+
+.right-box {
+    word-wrap: break-word;
+}
+
+.right-box {
+    font-size: 18px;
+}
