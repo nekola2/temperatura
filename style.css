@@ -11,7 +11,7 @@ label {
 
 .right-box {
     width: 800px;
-    padding: 300px;
+    padding: 150px;
     background-color: aqua;
     border: 1px solid black;
 
@@ -22,4 +22,8 @@ label {
 
 .right-box {
     word-wrap: break-word;
+}
+
+.right-box {
+    font-size: 18px;
 }
