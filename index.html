@@ -23,7 +23,7 @@
                 <div class="button-group">
             </div class="row">
             <label>Lielāka temperatūra</label>
-            <input type="text">
+            <input type="text" id="room">
             <button>Pievienot</button>
             </div>
 
@@ -32,6 +32,7 @@
            
             <div class="right-box"><!--синий контейнер-->
                   <h2>Temperatūru saraksts</h2>
+                  <thead>
                 <table>
                     <tr>
                         <th>Datums</th>
@@ -39,6 +40,8 @@
                         <th>Lielākā temperatūra</th>
                         <th>Videjājā temperatūra</th>
                         </tr>
+                        </thead>
+                        
                         <tr>
                             <td>1999-12-01</td>
                             <td>6</td>
@@ -71,7 +74,7 @@
             </div> 
             
 
-            <p class="average">Vidējā temperatūra visām dienām: 0.00</p>
+            <span class="average">Vidējā temperatūra visām dienām: 0.00</span>
             
             <p class="average2">Ievads dienas minimālo un māksimālo temperatūru. (Vēlāk var pieslēgt validāciju/Flask saglabāšanu.)</p>
 
@@ -80,5 +83,7 @@
             <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Baloo+2:wght@400;600&display=swap" rel="stylesheet">
 
             </div><!--Aizver baltais konteiners-->
+
+            <script src="skript.js"></script>        
 </body>
 </html>
