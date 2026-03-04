@@ -74,3 +74,11 @@ body {
 .right-box td {
     color: rgb(117, 117, 193);
 }
+
+.author {
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
